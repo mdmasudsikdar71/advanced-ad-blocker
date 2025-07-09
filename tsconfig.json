@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ESNext",
+    "moduleResolution": "node16",
+    "jsx": "react-jsxdev",                  // React 17+ JSX transform
+    "types": ["react", "react-dom", "chrome", "node"],
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "forceConsistentCasingInFileNames": true,  // Helps avoid subtle case issues
+    "noFallthroughCasesInSwitch": true,
+    "jsxImportSource": "react"
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+}
